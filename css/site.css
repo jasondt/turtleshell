@@ -1,0 +1,16 @@
+/*
+    Created on : Sep 23, 2013, 2:24:09 PM
+    Author     : Jason
+*/
+.navbar-brand-image {
+    float: left;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.pad15w {
+    padding: 0px 15px;
+}
