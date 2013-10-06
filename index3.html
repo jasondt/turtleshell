@@ -1,0 +1,299 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+        <meta charset="utf-8">
+        <title>ravewith.us</title>
+        <meta name="description" content="This is an example layout with carousel that uses the Bootstrap 3 RC styles. ">
+        <meta name="keywords" content="rave,tickets,community,events,shop,blog,dj,edm,electronic,dance,music">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="css/site.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="shortcut icon" href="/bootstrap/img/favicon.ico">
+        <link rel="apple-touch-icon" href="/bootstrap/img/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/bootstrap/img/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">
+
+        <style type="text/css" id="bsCss">
+
+            body {
+                padding-bottom: 40px;
+                color: #5a5a5a;
+
+            }
+
+            .navbar-wrapper {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 10;
+            }
+
+            .carousel {
+                margin-bottom: 60px;
+            }
+            .carousel-caption {
+                z-index: 10;
+            }
+            .carousel .item {
+                height: 500px;
+                background-color: transparent;
+            }
+            .carousel img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                min-width: 100%;
+                height: 500px;
+            }
+
+            .marketing {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .marketing .col-lg-4 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .marketing h2 {
+                font-weight: normal;
+            }
+            .marketing .col-lg-4 p {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            .featurette-divider {
+                margin: 80px 0;
+            }
+            .featurette {
+                padding-top: 120px;
+                overflow: hidden;
+            }
+            .featurette-image {
+                margin-top: -120px; 
+            }
+
+            .featurette-image.pull-left {
+                margin-right: 40px;
+            }
+            .featurette-image.pull-right {
+                margin-left: 40px;
+            }
+
+            .featurette-heading {
+                font-size: 50px;
+                font-weight: 300;
+                line-height: 1;
+                letter-spacing: -1px;
+            }
+
+            @media (max-width: 1000px) {
+                .carousel .item {
+                    height: 200px;
+
+                }
+                .carousel img {
+                    height: 200px;
+                }
+            }
+            @media (min-width: 768px) {
+
+                .marketing {
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+
+                .navbar-wrapper {
+                    margin-top: 20px;
+                    margin-bottom: -90px;
+                }
+                .navbar-wrapper .navbar {
+                    border-radius: 4px;
+                }
+
+                .carousel-caption p {
+                    margin-bottom: 20px;
+                    font-size: 21px;
+                    line-height: 1.4;
+                }
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">                
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="img-responsive pad15w"  href="#"><img src="images/logo.png" alt="ravewith.us"/></a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="/events.html">Events</a></li>
+                        <li><a href="/blog.html">Blog</a></li>
+                        <li><a href="/community.html">Community</a></li>
+                        <li><a href="/shop.html">Shop</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </div><!-- /container -->
+
+
+        <!-- Carousel
+        ================================================== -->
+        <div class="container">  
+            <div id="mainCarousel" class="carousel slide">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mainCarousel" data-slide-to="1"></li>
+                    <li data-target="#mainCarousel" data-slide-to="2"></li>
+                    <li data-target="#mainCarousel" data-slide-to="3"></li>
+                    <li data-target="#mainCarousel" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active"><!-- class of active since it's the first item -->
+                        <img src="images/tumblr_lywozrvWb81qcr4wxo1_500.gif" alt="" />
+                        <div class="carousel-caption">
+                            <p>See what's happening near you!</p>
+                            <p><a href="/events.html">find local events &raquo;</a></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/tumblr_lylc9sv58K1qdl9dfo1_500.gif" alt="" />
+                        <div class="carousel-caption">
+                            <p>What are you going to wear to your next rave?</p>
+                            <p><a href="/shop.html">shop now &raquo;</a></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/tumblr_m5iltl7LO41rtyogvo1_500.gif" alt="" />
+                        <div class="carousel-caption">
+                            <p>See what we've been up to.</p>
+                            <p><a href="/blog.html">check out our blog &raquo;</a></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/tumblr_m0t4uh4Tlv1r8a1kho1_500.gif" alt="" />
+                        <div class="carousel-caption">
+                            <p>Grow your rave family!</p>
+                            <p><a href="/community.html">join the community &raquo;</a></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/tumblr_lxdgaseaVD1qlwx02o1_500.gif" alt="" />
+                        <div class="carousel-caption">
+                            <p>Get to know the ravewith.us crew!</p>
+                            <p><a href="/about.html">about us &raquo;</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#mainCarousel" data-slide="prev">
+                    <span class="icon-prev"></span>
+                </a>
+                <a class="right carousel-control" href="#mainCarousel" data-slide="next">
+                    <span class="icon-next"></span>
+                </a>  
+            </div>
+        </div>
+        <!-- /.carousel -->
+
+
+        <!-- Marketing messaging and featurettes
+        ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img class="img-circle" alt="" src="images/9406061959_baeea3fcce_o.jpg">
+                    <h2>Mobile-first</h2>
+                    <p>Tablets, phones, laptops. The new 3 promises to be mobile friendly from the start.</p>
+                    <p><a class="btn btn-default" href="#">View details »</a></p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="img-circle" alt="" src="http://placehold.it/140x140">
+                    <h2>One Fluid Grid</h2>
+                    <p>There is now just one percentage-based grid for Bootstrap 3. Customize for fixed widths.</p>
+                    <p><a class="btn btn-default" href="#">View details »</a></p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="img-circle" alt="" src="http://placehold.it/140x140">
+                    <h2>LESS is More</h2>
+                    <p>Improved support for mixins make the new Bootstrap 3 easier to customize.</p>
+                    <p><a class="btn btn-default" href="#">View details »</a></p>
+                </div>
+            </div><!-- /.row -->
+
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider">
+
+            <div class="featurette">
+                <img class="featurette-image img-circle pull-right img-responsive" alt="" src="images/9406061959_baeea3fcce_o.jpg">
+                <h2 class="featurette-heading">Responsive Design. <span class="text-muted">It'll blow your mind.</span></h2>
+                <p class="lead">In simple terms, a responsive web design figures out what resolution of device it's being served on. Flexible grids then size correctly to fit the screen.</p>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="featurette">
+                <img class="featurette-image img-circle pull-left img-responsive" alt="" src="http://placehold.it/512">
+                <h2 class="featurette-heading">Smaller Footprint. <span class="text-muted">Lightweight.</span></h2>
+                <p class="lead">The new Bootstrap 3 promises to be a smaller build. The separate Bootstrap base and responsive.css files have now been merged into one. There is no more fixed grid, only fluid.</p>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="featurette">
+                <img class="featurette-image img-circle pull-right img-responsive" alt="" src="http://placehold.it/512">
+                <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Flatness.</span></h2>
+                <p class="lead">A big design trend for 2013 is "flat" design. Gone are the days of excessive gradients and shadows. Designers are producing cleaner flat designs, and Bootstrap 3 takes advantage of this minimalist trend.</p>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- /END THE FEATURETTES -->
+
+
+            <!-- FOOTER -->
+            <footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>Copyright ravewith.us 2013. All rights reserved.</p>
+            </footer>
+
+        </div><!-- /.container -->
+        <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type='text/javascript' src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script type='text/javascript' id="onload">
+
+            $(document).ready(function() {
+
+
+
+
+
+            });
+
+        </script>
+    </body>
+</html>
