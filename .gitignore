@@ -1,7 +1,14 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
-/nbproject/private/
+.DS_Store
+.vagrant
+.svn
+nbproject
+Thumbs.db
+*.bak
+*.sass-cache
+*.komodoproject
+.idea
+*.sublime-project
+*.sublime-workspace
+dump.rdb
+Vagrantfile.local
+composer.phar

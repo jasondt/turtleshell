@@ -1,0 +1,42 @@
+.header:after,
+.tweets-bar:before {
+	background:#6600CC; /** color change */
+}
+
+.main-nav ul li ul {
+	top:120px;  /** fix bug with nav dropdown covering adjacent button and glitching */
+}
+
+.user-control {
+display:; /**display:none; to hide this til we have search and login enabled */
+}
+
+.footer-bar ul li ul {
+display:none;
+}
+
+a:hover {
+color:#3399FF;
+}
+
+.centered {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.banner .container .page-title h1 {
+
+font-family:Verdana,Arial,Helvetica,sans-serif;
+
+transform: rotateX(40deg);
+-webkit-transform: rotateX(40deg); /* Safari and Chrome */
+}
+
+.banner .container .page-title {
+perspective:250;
+perspective-origin: 10% 10%;
+-webkit-perspective:250; /* Safari and Chrome */
+-webkit-perspective-origin: 10% 10%; /* Safari and Chrome */
+
+
+}

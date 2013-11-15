@@ -1,0 +1,21 @@
+/*!
+ * Partynight v.1.0.0
+ * Copyright 2013 extracoding
+ * 
+ */
+ 
+.thumbnail-featured .caption,
+.thumbnail:hover,
+.thumbnail.thumbnail-featured {
+	background-color:#e71a75;
+}
+.newsletter label {
+	font-size:13px;
+}
+.widget_recent_post li .post-data p,
+.catelog-box .cat-detail p {
+	margin-bottom:0px;
+}
+.main-nav ul > li > a {
+	padding:27px 12px 29px 12px;
+}

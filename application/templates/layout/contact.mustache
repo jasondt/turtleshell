@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="generator" content="{{app_version}}">
+	<title>ravewith.us</title>
+        <meta name="keywords" content="rave,tickets,community,events,shop,blog,dj,edm,electronic,dance,music">
+	<link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link href="style/common.css" rel="stylesheet">
+	<link href="style/style.css" rel="stylesheet">
+	<link href="style/color.css" rel="stylesheet">
+	<link href="style/responsive.css" rel="stylesheet">
+	<link href="style/ravewithus.css" rel="stylesheet">
+
+	<!--[if lt IE 9]><link rel="stylesheet" href="style/ie.css" type="text/css" /><![endif]-->
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+	<link href="style/slider.css" rel="stylesheet">
+
+</head>
+<body id="{{view_name}}">
+{{>header}}
+<div id="notices">
+	{{#notices}}
+		<div class="notice {{type}}">{{message}}</div>
+	{{/notices}}
+</div>
+<div id="page">
+	<div id="content">
+		{{>content-contact}}
+	</div>
+</div>
+{{>footer}}		
+</body>
+</html>

@@ -1,0 +1,27 @@
+[submodule "system"]
+	path = system
+	url = git://github.com/synapsestudios/kohana-core
+[submodule "modules/database"]
+	path = modules/database
+	url = git://github.com/synapsestudios/kohana-database
+[submodule "modules/minion"]
+	path = modules/minion
+	url = git://github.com/synapsestudios/kohana-minion
+[submodule "modules/task-migrations"]
+	path = modules/task-migrations
+	url = git://github.com/synapsestudios/kohana-task-migrations
+[submodule "modules/task-upgrade"]
+	path = modules/task-upgrade
+	url = git://github.com/synapsestudios/kohana-task-upgrade
+[submodule "modules/rollbar"]
+	path = modules/rollbar
+	url = git@github.com:synapsestudios/kohana-rollbar.git
+[submodule "vendor/Mustache"]
+	path = vendor/Mustache
+	url = https://github.com/bobthecow/mustache.php.git
+[submodule "vendor/heroine"]
+	path = vendor/heroine
+	url = https://github.com/synapsestudios/heroine.git
+[submodule "vendor/castellan"]
+	path = vendor/castellan
+	url = https://github.com/synapsestudios/castellan.git

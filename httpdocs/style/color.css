@@ -1,0 +1,30 @@
+/*!
+ * Partynight v.1.0.0
+ * Copyright 2013 extracoding
+ * 
+ */
+
+a:hover,
+.text-pink,
+.tweets-bar h5,
+.footer h3,
+.widget h3,
+.blog-box .details h3,
+.blog-box .details p a,
+blockquote p,
+.events-list-view .thumbnail a:hover,
+.contact-list li a:hover {
+	color:#e71a75;
+}
+.thumbnail:after,
+.thumbnail.thumbnail-featured,
+.btn,
+.breadcrumb > li:last-child > a,
+.ui-accordion-header-active,
+.widget-accordion > h6.ui-accordion-header-active {
+	background-color:#e71a75;
+}
+blockquote,
+.dialog-block {
+  border-color:#e71a75;
+}
